@@ -1,0 +1,23 @@
+/* Variables and mixins declared here will be available in all other SCSS files */ /* https://github.com/jgthms/bulma/issues/1293 */
+$body-overflow-y: auto;
+// Set your brand colors
+$bright-green: #22be14;
+$cyan: #32afc1;
+$brown: #757763;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+$tan: #a98f71;
+$vcs-background: #73757a;
+
+// Update Bulma's global variables
+$family-sans-serif: "Lato", sans-serif;
+$primary: $bright-green;
+$link: $cyan;
+$widescreen-enabled: true;
+$fullhd-enabled: true;
+
+// Update some of Bulma's component variables
+$body-background-color: $vcs-background;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
