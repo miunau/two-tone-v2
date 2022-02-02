@@ -10,14 +10,18 @@ $tan: #a98f71;
 $vcs-background: #73757a;
 
 // Update Bulma's global variables
-$family-sans-serif: "Lato", sans-serif;
+$family-sans-serif: "IBM Plex Sans", sans-serif;
 $primary: $bright-green;
-$link: $cyan;
+$link: #1e509c;
 $widescreen-enabled: true;
-$fullhd-enabled: true;
+$fullhd-enabled: false;
 
 // Update some of Bulma's component variables
 $body-background-color: $vcs-background;
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
+
+// Navbar
+$navbar-breakpoint: 500px;
+$navbar-background-color: hsla(0,0%,90%, 90%);

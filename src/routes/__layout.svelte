@@ -1,10 +1,8 @@
 <script>
 	import '../app.scss';
-	import Nav from '../components/nav.svelte';
+	import Nav from '../components/Nav.svelte';
 </script>
-
-<!--<style> @import '../styles/global.scss';</style>-->
-<Nav>
-	<slot /></Nav
->
-<slot />
+<Nav/>
+<section class="container has-background-grey-light p-6">
+	<slot></slot>
+</section>

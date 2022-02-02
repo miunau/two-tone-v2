@@ -1,4 +1,5 @@
-let dataSets = [
+let dataSetsIndex = [
+
 
     {
         id: ':sample:us-historical-budget-data',
@@ -9,6 +10,17 @@ let dataSets = [
         },
         attachments: {
             data: () => import('./us-historical-budget-data.json')
+        }
+    },
+
+    {   id: ':sample:alphabet',
+        permanent: true,
+        metadata: {
+            title: 'Alphabetic Letter Frequency',
+            source: 'https://observablehq.com/@d3/bar-chart-transitions'
+        },
+        attachments: {
+            data: () => import('./alphabet.json')
         }
     },
 
@@ -83,6 +95,7 @@ let dataSets = [
             data: () => import('./honeyproduction.json')
         }
     }
-];
+]
 
-export default dataSets;
+
+export default dataSetsIndex;
