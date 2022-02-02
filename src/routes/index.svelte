@@ -1,6 +1,6 @@
 <script>
-    import {dataSetsStore} from "../stores/dataSetsStore.js";
-    console.log($dataSetsStore);
+    import {dataSets} from "../stores/dataSetsStore.js";
+    console.log($dataSets);
 </script>
 
 <svelte:head>
@@ -12,7 +12,7 @@
         Data Sets
     </h1>
 
-{#each $dataSetsStore as metadataObject }
+{#each $dataSets as metadataObject }
     <div >
         {metadataObject.position} ▶︎ {metadataObject.title}
     </div>
